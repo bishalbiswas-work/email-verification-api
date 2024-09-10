@@ -40,7 +40,7 @@ app.post('/send-email', emailController.sendEmail);
 let PORT = 5001;
 
 if (process.env.NODE_ENV === "production") {
-    PORT = 5000;
+    PORT = 5001;
 } else {
     PORT = 5001;
 }
